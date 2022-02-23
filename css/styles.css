@@ -1,47 +1,55 @@
+/* main page */
+
 h1 {
-    font-family: "Dancing Script";
-    text-align: center;
-    font-size: 60px;
-    font-weight: normal;
-    
+  font-family: "Dancing Script";
+  text-align: center;
+  font-size: 60px;
+  font-weight: normal;
 }
 
 .recipes-container {
-    margin: 6% auto 0 auto;
-    text-align: center; 
-    
-}
-
-img {
-    height: 300px;
-    width: 420px;
-    transition: 0.4s;
-}
-
-.recipe-box img:hover {
-    opacity: 0.5;
-    height: 320px;
-    width: 440px;
-}
-
-h2 {
-    font-family: Comfortaa, cursive;
-    color: #B83B5E;
-    font-size: 30px;
-}
-
-.recipes-container h2 {
-    margin-bottom: 4%;
-}
-
-h3 {
-    font-weight: normal;
-    font-family: Comfortaa, cursive;
+  margin: 6% auto 0 auto;
+  text-align: center;
 }
 
 .recipe-box {
-    display: inline-block;
-    width: 500px;
+  display: inline-block;
+  width: 500px;
 }
 
+img {
+  height: 300px;
+  width: 420px;
+  transition: 0.5s;
+}
 
+.recipe-box img:hover {
+  opacity: 0.5;
+  height: 310px;
+  width: 430px;
+}
+
+h2 {
+  font-family: Comfortaa, cursive;
+  color: #b83b5e;
+  font-size: 30px;
+}
+
+.recipes-container h2 {
+  margin-bottom: 4%;
+}
+
+h3 {
+  font-weight: normal;
+  font-family: Comfortaa, cursive;
+}
+
+/* Recipes pages */
+
+p {
+  font-family: Comfortaa, cursive;
+}
+
+li {
+  font-family: Comfortaa, cursive;
+}
